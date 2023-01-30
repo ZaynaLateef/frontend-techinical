@@ -22,7 +22,7 @@ export default function WithBackgroundImage() {
       <Flex
         w={'full'}
         justify={'end'}
-        alignItems = {'center'}
+        marginTop = '6%'
         px={useBreakpointValue({ base: 4, md: 100 })}>
         <Stack maxW={'2xl'} alignItems={'flex-end'} spacing={2}>
           <Text
@@ -35,7 +35,8 @@ export default function WithBackgroundImage() {
           <Stack direction={'row'}>
             <Button
               bg={'pink.400'}
-              rounded={'full'}
+          
+              width= '150px'
               color={'white'}
               _hover={{ bg: 'pink.500' }}>
               Adopt
